@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		21A8F9071E575F5A00626DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F9061E575F5A00626DAA /* AppDelegate.swift */; };
-		21A8F9091E575F5A00626DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F9081E575F5A00626DAA /* ViewController.swift */; };
+		21A8F9091E575F5A00626DAA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F9081E575F5A00626DAA /* LoginVC.swift */; };
 		21A8F90C1E575F5A00626DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A8F90A1E575F5A00626DAA /* Main.storyboard */; };
 		21A8F90E1E575F5A00626DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A8F90D1E575F5A00626DAA /* Assets.xcassets */; };
 		21A8F9111E575F5A00626DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A8F90F1E575F5A00626DAA /* LaunchScreen.storyboard */; };
+		21A8F9191E57604300626DAA /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F9181E57604300626DAA /* MusicListVC.swift */; };
+		21A8F91B1E5762AF00626DAA /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F91A1E5762AF00626DAA /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21A8F9031E575F5A00626DAA /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A8F9061E575F5A00626DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21A8F9081E575F5A00626DAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21A8F9081E575F5A00626DAA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		21A8F90B1E575F5A00626DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21A8F90D1E575F5A00626DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A8F9101E575F5A00626DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21A8F9121E575F5A00626DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A8F9181E57604300626DAA /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		21A8F91A1E5762AF00626DAA /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySongVC.swift; path = ../PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				21A8F9061E575F5A00626DAA /* AppDelegate.swift */,
-				21A8F9081E575F5A00626DAA /* ViewController.swift */,
+				21A8F9081E575F5A00626DAA /* LoginVC.swift */,
+				21A8F9181E57604300626DAA /* MusicListVC.swift */,
+				21A8F91A1E5762AF00626DAA /* PlaySongVC.swift */,
 				21A8F90A1E575F5A00626DAA /* Main.storyboard */,
 				21A8F90D1E575F5A00626DAA /* Assets.xcassets */,
 				21A8F90F1E575F5A00626DAA /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A8F9091E575F5A00626DAA /* ViewController.swift in Sources */,
+				21A8F9191E57604300626DAA /* MusicListVC.swift in Sources */,
+				21A8F91B1E5762AF00626DAA /* PlaySongVC.swift in Sources */,
+				21A8F9091E575F5A00626DAA /* LoginVC.swift in Sources */,
 				21A8F9071E575F5A00626DAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
